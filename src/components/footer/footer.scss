@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    span{
+
+&:first-child{
+    font-weight: bold;
+
+}
+&:last-child{
+    font-size: 14px;
+}
+// the code below shows how to highlight an element while hovering 
+// on it with the mouse
+// &:hover{
+//     background-color: red;
+// } 
+    }
+}
