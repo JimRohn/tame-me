@@ -1,3 +1,22 @@
+@import "../../styles/variables.scss";
+
+
 .home{
-  
+    display: grid;
+    gap:20px;
+     grid-template-rows: 1fr 2fr 80% 1fr;
+
+    //grid-template-columns: 1fr 2fr 1fr 1fr;
+    // In CSS Grid, 1fr refers to a fractional unit, representing one fraction of the available space in the grid container. 
+    // When you use 1fr for a grid column or row size, it allocates one portion of the available space to that column or row.
+
+ .box{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid $soft-bg;
+    background-color:rgb(103, 153, 170);
+ }   
+
+
 }
+
